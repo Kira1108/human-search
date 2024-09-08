@@ -5,6 +5,8 @@
 2. 用yolo-face提取脸，用通用的yolo提人物
 3. 脸和人物向量分别存在一个Milvus数据库
 4. 通过query图像检索人脸和人物
+5. iamges文件夹放景区定时扫描的所有图片， 通过vdb_pipeline入库
+6. 测试需要有一些真实图片，和真实的query image，这个需要后面制造一些。
 
 1. 图像编码器可以用vit或者timm支持的模型类型（需要安装transformers和timm）啥的，最好，连外网，或者搞huggingface镜像
 2. Milvus用docker启动就行了
